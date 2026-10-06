@@ -1,0 +1,50 @@
+# Course data stays local.
+/data/*
+!/data/README.md
+
+# Generated outputs stay local; curated results can be added deliberately later.
+/results/*
+!/results/.gitkeep
+
+# Local credentials and environment settings.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python environments and caches, if Python is adopted.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Notebook checkpoints and R session files, if used.
+.ipynb_checkpoints/
+.Rhistory
+.RData
+.Ruserdata
+
+# Local editor and operating-system files.
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+
+# Temporary files.
+tmp/
+temp/
+*.log
+
+# Course materials and provisional planning are kept outside the public repo.
+/Courses/
+/Syllabus.pdf
+/research_plan/

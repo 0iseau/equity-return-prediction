@@ -1,0 +1,5 @@
+# Keep text files consistent across Windows and other platforms.
+* text=auto
+*.md text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
