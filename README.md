@@ -4,13 +4,20 @@ Equity signals and portfolio research for a Master's project in Applied Investme
 
 ## Objective
 
-Investigate whether a US-equity strategy based on stock signals can generate alpha, measured using the factor model specified by the professor.
+Investigate signal-based US equity strategies and evaluate factor-adjusted alpha.
 
-## Project requirements
+## Data
 
-- Use the dataset provided by the professor.
-- Evaluate alpha using the professor's specified factor model.
-- Use information available at portfolio formation and avoid look-ahead bias, information leakage, survivorship bias, and test-set optimization.
+Data sources presented in the course, accessed through **WRDS (Wharton Research Data Services)**:
+
+- **CRSP (Center for Research in Security Prices):** historical US stock prices, returns, and trading volumes for NYSE, AMEX, and NASDAQ securities.
+- **Compustat:** company financial statements and annual and quarterly accounting fundamentals.
+
+Data files remain local and are excluded from version control.
+
+## Research principles
+
+Respect historical information availability and avoid look-ahead bias, information leakage, survivorship bias, and test-set optimization.
 
 ## Repository structure
 
